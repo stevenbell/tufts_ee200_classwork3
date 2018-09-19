@@ -22,7 +22,9 @@ We'll give you more detailed instructions for submitting your code on Wednesday.
 
 # Problems
 ## 1.
-Write a function that prints the prime factors of an integer.  The input to the function is an int; it should return 0 if it was successful; -1 if it was not (e.g., the number doesn't have any prime factors).  The prime factors should be printed one on each line.  Remember that 1 is not prime.
+Write a function that prints the prime factors of an integer.  The prime factors are the set of prime numbers that when multiplied together produce the original number.  Some factors may be repeated.  For example, the factors of 20 would be 2, 2, 5.
+
+The input to the function is an int; it should return 0 if it was successful; -1 if it was not (e.g., the number doesn't have any prime factors).  The prime factors should be printed one on each line.  Remember that 1 is not prime.
 
 ## 2.
 Write a function that returns the largest power of 2 that is less than or equal to N (i.e., 5 returns 4, 12 returns 8, etc.).
@@ -47,6 +49,6 @@ typedef struct {
 Triangle getLarger(Triangle first, Triangle second);
 
 # 5.
-Write a function that prints out N random numbers between 0 and M
+Write a function that prints out N random numbers between 0 and M.
 
 
