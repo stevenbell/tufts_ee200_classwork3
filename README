@@ -33,6 +33,8 @@ Write a function that returns the largest power of 2 that is less than or equal 
 Write a function that behaves like a simple calculator: it takes two double-precision arguments and a character operand (one of '+', '-', '*', '/', or '^') and returns the result as a double.
 You might want to use the 'pow' function; type 'man pow' at the command-line for the reference page. (If you use 'pow', you'll need to add -lm to your gcc command.)
 
+If the operation is invalid, print an error and return 0.
+
 # 4.
 Write a function that returns the triangle with the larger area.
 typedef struct {
@@ -49,6 +51,5 @@ typedef struct {
 Triangle getLarger(Triangle first, Triangle second);
 
 # 5.
-Write a function that prints out N random numbers between 0 and M.
-
+Write a function that prints out N random integers in the range [0, MAX), i.e., inclusive of 0 but not MAX.
 
