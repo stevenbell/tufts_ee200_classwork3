@@ -50,9 +50,9 @@ Write a function that returns the triangle with the larger area.  A `Triangle` i
     } Point;
     
     typedef struct {
-      point a;
-      point b;
-      point c;
+      Point a;
+      Point b;
+      Point c;
     } Triangle;
     
     Triangle getLarger(Triangle first, Triangle second);
